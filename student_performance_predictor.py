@@ -13,7 +13,7 @@ warnings.filterwarnings('ignore')
 np.random.seed(42)
 
 def generate_student_data(n_samples=1000):
-    """Generate synthetic student performance data."""
+    """Generate student performance data."""
     # Generate features
     hours_studied = np.random.normal(6, 2, n_samples)  # Mean 6 hours, std 2
     sleep_hours = np.random.normal(7, 1, n_samples)    # Mean 7 hours, std 1
